@@ -1,0 +1,99 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff5f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff6f91;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2em;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffe0e6;
+  }
+  
+  .produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .produto {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .produto img {
+    max-width: 150px;
+    border-radius: 10px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ff6f91;
+    color: white;
+    padding: 10px;
+  }
+  
